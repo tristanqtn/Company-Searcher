@@ -1,17 +1,30 @@
-# Company-Searcher
+# List-Searcher
 
-This tool will perform researches for you and store the results in an XLSX file automatically generated.
+Perform research effortlessly with List-Searcher, a tool designed to conduct searches and automatically store results in an XLSX file.
 
-======= PREREQUISITIES
->> install following python packages
+## Prerequisites
 
-pip install beautifulsoup4
+Ensure you have the following Python packages installed:
 
-pip install google
+- beautifulsoup4
+  ```bash
+  pip install beautifulsoup4
+  ```
 
-pip install xlsxwriter
- 
-======= HOW TO USE
->> write all the names you want to search in the data.txt file (one research per line)
->> run the program (select in the program the number of results you need per research)
->> open the created xlsx sheet to get all the results for your researches
+- google
+  ```bash
+  pip install google
+  ```
+
+- xlsxwriter
+  ```bash
+  pip install xlsxwriter
+  ```
+
+## How to Use
+
+1. Write the names you want to search in the `data.txt` file (one research per line).
+2. Run the program and select the number of results needed per research.
+3. Open the created XLSX sheet to access all the results for your searches.
+
+Simplify your research process with List-Searcher! 🚀
